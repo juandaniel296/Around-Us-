@@ -1,0 +1,65 @@
+
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(imagenes/fondoderegisto.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;    
+
+}
+
+main {
+    color: rgb(169, 214, 180);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(33, 99, 129, 0.651);
+    border-radius: 20px;
+    padding: 50px;
+    padding-bottom: 20px;
+    width: 80%; 
+    max-width: 400px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+}
+
+.salto {
+    height: 50px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input[type="text"], /* Corchetes para indicar el tipo */
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; 
+}
+
+button {
+    background-color: rgb(125, 166, 202);
+    color: white;
+    border: solid;
+    border-color: aqua;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(95, 136, 168); /* Cambio de color en hover */
+}
